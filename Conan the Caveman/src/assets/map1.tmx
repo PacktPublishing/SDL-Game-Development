@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="clouds" value="assets/prehistoric.png"/>
+  <property name="player" value="assets/player.png"/>
+  <property name="snail" value="assets/snail.png"/>
+ </properties>
+ <tileset firstgid="1" name="blocks1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="blocks1.png" width="614" height="376"/>
+ </tileset>
+ <tileset firstgid="199" name="blocks2" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="blocks2.png" width="614" height="376"/>
+ </tileset>
+ <objectgroup name="Object Layer 2" width="200" height="15">
+  <object name="Background" type="ScrollingBackground" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="animSpeed" value="0.2"/>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="480"/>
+    <property name="textureID" value="clouds"/>
+    <property name="textureWidth" value="640"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Bottom" width="200" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1sENgzAQBEAjUQNthaZI0mWgBKABrgAjSzyScJqR9rWfffgklwIAAAAAfNujK2Xsfr0C/tMrbuPtPqBqitt4ug9u6BOZI8vFPssGqFkjW2S/2GfZAGf6xt+n1WfZADVD4+21+iwbAIB8DikMGQg=
+  </data>
+ </layer>
+ <layer name="Collision" width="200" height="15">
+  <properties>
+   <property name="collidable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztlg0KgzAMRtNr7G7bNTc28B47g/MOQ6QgXZKirfPvPfgYqJOY+lJbEWmdABwB7x0vCcARwA8AG/wAsMEPABv8ALDBDwAb/ACwwQ8AG/wYuCcB6DmzH2MfnklAJ50f6Vw52ow5mx+eE306wQ+NtGcRrYcx415fg8gt2L9b9epsfnjruef9w5rrte5r9adWPzWvtsBSfnj77j/yMI7HNfjI7xo2oq/nUrV43yRTvmO0uR6fr7T23N4wPnYJQ0r90PaftTL3/fdmxcvJO3N+apqC/2p1a+upXTs3XeZ8pHRO16q3VqI7Vtaur3a+mGxSJw==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="200" height="15">
+  <object name="Player" type="Player" x="496" y="199" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="3"/>
+    <property name="textureHeight" value="60"/>
+    <property name="textureID" value="player"/>
+    <property name="textureWidth" value="40"/>
+   </properties>
+  </object>
+  <object name="Snail" type="Snail" x="718" y="335" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="34"/>
+    <property name="textureID" value="snail"/>
+    <property name="textureWidth" value="34"/>
+   </properties>
+  </object>
+  <object name="Snail" type="Snail" x="1753" y="234" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="34"/>
+    <property name="textureID" value="snail"/>
+    <property name="textureWidth" value="34"/>
+   </properties>
+  </object>
+  <object name="Snail" type="Snail" x="2203" y="251" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="34"/>
+    <property name="textureID" value="snail"/>
+    <property name="textureWidth" value="34"/>
+   </properties>
+  </object>
+  <object name="Snail" type="Snail" x="3099" y="351" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="34"/>
+    <property name="textureID" value="snail"/>
+    <property name="textureWidth" value="34"/>
+   </properties>
+  </object>
+  <object name="Snail" type="Snail" x="4116" y="372" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="34"/>
+    <property name="textureID" value="snail"/>
+    <property name="textureWidth" value="34"/>
+   </properties>
+  </object>
+  <object name="Snail" type="Snail" x="4767" y="306" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="34"/>
+    <property name="textureID" value="snail"/>
+    <property name="textureWidth" value="34"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Overlay" width="200" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzrsNgDAUA8BEQozA/psBIwQWIJT8miAonu4kN3bjlAAAAAAAAAD+M9ZMNXPjHuUD3Ck1S83auH/1ofz8AZ50+d0e5QPs+nzMkK/deY/4AQCIZwOTaBfU
+  </data>
+ </layer>
+ <layer name="Overlay2" width="200" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEKwzAMBdB465S10PsfKj1Al5AeoNChQwLxYkLAING8B8I22PgvGjQMcB1TtZ/DUkBOdU98w1JATnVPjCUsBqSkJ6BtOr4Cl2UmhzYzObSZP1av6ACktkQHgMTe0QEA4A99ogN0dC97AdDHo+wV8W/rfPZ9D89tvZW1OPYDvDkNbQ==
+  </data>
+ </layer>
+</map>

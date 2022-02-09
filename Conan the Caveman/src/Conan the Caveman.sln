@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Conan the Caveman", "Conan the Caveman.vcxproj", "{B80BE22D-A6CB-4F7C-BFCE-9153E3993C07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B80BE22D-A6CB-4F7C-BFCE-9153E3993C07}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B80BE22D-A6CB-4F7C-BFCE-9153E3993C07}.Debug|Win32.Build.0 = Debug|Win32
+		{B80BE22D-A6CB-4F7C-BFCE-9153E3993C07}.Release|Win32.ActiveCfg = Release|Win32
+		{B80BE22D-A6CB-4F7C-BFCE-9153E3993C07}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

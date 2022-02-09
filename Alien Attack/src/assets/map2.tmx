@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="boss" value="assets/boss1.png"/>
+  <property name="clouds2" value="assets/clouds2.png"/>
+  <property name="enemy1" value="assets/enemy1.png"/>
+  <property name="enemy2" value="assets/enemy2.png"/>
+  <property name="enemy3" value="assets/enemy3.png"/>
+  <property name="explosion" value="assets/explosion.png"/>
+  <property name="largeexplosion" value="assets/largeexplosion.png"/>
+  <property name="player" value="assets/heli.png"/>
+  <property name="turret" value="assets/turret.png"/>
+ </properties>
+ <tileset firstgid="1" name="blocks1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="assets/blocks1.png" width="614" height="376"/>
+ </tileset>
+ <objectgroup name="Object Layer 2" width="150" height="15">
+  <object name="Background" type="ScrollingBackground" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="animSpeed" value="0.2"/>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="480"/>
+    <property name="textureID" value="clouds2"/>
+    <property name="textureWidth" value="640"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Bottom" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1LENgDAQBEGKog5KoQ+6JkcEtqWNPCNd9Onqj2PdNTEYNdqLrpihKwq6oqArCrqioCsKuqKgKwq6oqArCkVX58/YS/mvns9g1r14A/byApBqDq8=
+  </data>
+ </layer>
+ <layer name="Collision" width="150" height="15">
+  <properties>
+   <property name="collidable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztlssJgDAQBT1agKVYlWAP/iqyQuMh4MHPru7LRvIGBjSYiDpIqqpsatAc6bpP1zXCdazmERvYFUHArggCdpUfncJcYVcEwZuuLNd905WkGXblC6orzf2jUthV/nh3FbHu6s+Uur9CwK4IAnZFIl7/Onalpz1xVZoKdoXBYn911tGVUlK1xa6uGYNTcA4uwUEwdne+H2taKc2v71o6z2PseNyD9P5+d6KeuU+w/l/cANp1iiU=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="150" height="15">
+  <object name="Player1" type="Player" x="76" y="238" width="32" height="32">
+   <properties>
+    <property name="numFrames" value="5"/>
+    <property name="textureHeight" value="46"/>
+    <property name="textureID" value="player"/>
+    <property name="textureWidth" value="101"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
